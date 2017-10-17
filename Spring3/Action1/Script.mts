@@ -9,6 +9,6 @@ Browser("Browser").Page("spring-mvc-showcase_2").Link("Type Conversion").Click
 Browser("Browser").Page("spring-mvc-showcase_3").Link("Date").Click
 Browser("Browser").Page("spring-mvc-showcase_3").Link("Custom Value Object").Click
 Browser("Browser").Page("spring-mvc-showcase_3").Link("Custom Converter").Click
-'Browser("Browser").Page("spring-mvc-showcase_3").Link("THIS RAISES ERROR").Click
+Browser("Browser").Page("spring-mvc-showcase_3").Link("THIS RAISES ERROR").Click
 SystemUtil.CloseProcessByName("chrome.exe") 
 'Change
