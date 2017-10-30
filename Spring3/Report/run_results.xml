@@ -6,10 +6,10 @@
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",1</Name>
-    <StartTime>2017-10-30 11:22:45</StartTime>
+    <StartTime>2017-10-30 11:39:50</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>d06ef0483e574378ac0c35a89b96fa67</IconKey>
+      <IconKey>35727a64bf5f44f394f9a5f2d6a92cce</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -18,8 +18,8 @@
 <ReportNode type="Step">
 <Data>
     <Name>Browser.Navigate</Name>
-    <Description>Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
-    <StartTime>2017-10-30 11:22:51</StartTime>
+    <Description>Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2017-10-30 11:39:52</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -31,76 +31,9 @@
           </Object>
         </Path>
         <Operation>Navigate</Operation>
-        <OperationData><![CDATA[Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+        <OperationData><![CDATA[Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
       </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<ReportNode type="Context">
-<ReportNode type="Step">
-<Data>
-    <Name>Request Mapping.Click</Name>
-    <Description />
-    <StartTime>2017-10-30 11:22:56</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[spring-mvc-showcase]]></Name>
-          </Object>
-          <Object>
-            <Type>Link</Type>
-            <Name><![CDATA[Request Mapping]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[text]]></Name>
-            <Value><![CDATA[Request Mapping]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[A]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<Data>
-    <Name>spring-mvc-showcase</Name>
-    <Description>Page</Description>
-    <StartTime>2017-10-30 11:22:56</StartTime>
-    <Duration>1</Duration>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[spring-mvc-showcase]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[Page]]></OperationData>
-      </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>7b7c36497069490a802efcf6a716fd5a</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -110,7 +43,7 @@
 <Data>
     <Name>Type Conversion.Click</Name>
     <Description />
-    <StartTime>2017-10-30 11:22:57</StartTime>
+    <StartTime>2017-10-30 11:39:55</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -141,7 +74,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
+      <IconKey>a498fb4c586f47e6ac47bb703ad6366e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -149,7 +82,7 @@
 <Data>
     <Name>spring-mvc-showcase_2</Name>
     <Description>Page</Description>
-    <StartTime>2017-10-30 11:22:57</StartTime>
+    <StartTime>2017-10-30 11:39:55</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <Extension>
@@ -167,7 +100,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>816e7b8c508b49fc80732e56145d8e83</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -177,7 +110,7 @@
 <Data>
     <Name>Custom Converter.Click</Name>
     <Description />
-    <StartTime>2017-10-30 11:22:57</StartTime>
+    <StartTime>2017-10-30 11:39:55</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -208,7 +141,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
+      <IconKey>a498fb4c586f47e6ac47bb703ad6366e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -216,7 +149,7 @@
 <Data>
     <Name>spring-mvc-showcase_3</Name>
     <Description>Page</Description>
-    <StartTime>2017-10-30 11:22:57</StartTime>
+    <StartTime>2017-10-30 11:39:55</StartTime>
     <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
@@ -234,7 +167,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>816e7b8c508b49fc80732e56145d8e83</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -242,8 +175,8 @@
 <Data>
     <Name>Browser</Name>
     <Description>Browser</Description>
-    <StartTime>2017-10-30 11:22:51</StartTime>
-    <Duration>7</Duration>
+    <StartTime>2017-10-30 11:39:52</StartTime>
+    <Duration>4</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -256,7 +189,7 @@
         </Path>
         <OperationData><![CDATA[Browser]]></OperationData>
       </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
+      <IconKey>7b7c36497069490a802efcf6a716fd5a</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -264,14 +197,14 @@
 <Data>
     <Name>Action1</Name>
     <Description />
-    <StartTime>2017-10-30 11:22:43</StartTime>
-    <Duration>15</Duration>
+    <StartTime>2017-10-30 11:39:49</StartTime>
+    <Duration>7</Duration>
     <Result>Done</Result>
     <InputParameters>
-      <Parameter name="URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53" type="System.String" />
+      <Parameter name="URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54" type="System.String" />
     </InputParameters>
     <Extension>
-      <IconKey>dc870929666242438d8ffc18e9db6925</IconKey>
+      <IconKey>2bd43440d781460b9007a31b482e00c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -279,11 +212,11 @@
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2017-10-30 11:22:43</StartTime>
-    <Duration>15</Duration>
+    <StartTime>2017-10-30 11:39:49</StartTime>
+    <Duration>7</Duration>
     <Result>Done</Result>
     <Extension>
-      <IconKey>1187113d433347d4a1dc5ac26251ac1b</IconKey>
+      <IconKey>e4a4df68c9bd400d9ca6f0f0a3c24200</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>1</Index>
@@ -295,10 +228,10 @@
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",1</Name>
-    <StartTime>2017-10-30 11:22:59</StartTime>
+    <StartTime>2017-10-30 11:39:57</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>d06ef0483e574378ac0c35a89b96fa67</IconKey>
+      <IconKey>35727a64bf5f44f394f9a5f2d6a92cce</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -307,8 +240,8 @@
 <ReportNode type="Step">
 <Data>
     <Name>Browser.Navigate</Name>
-    <Description>Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
-    <StartTime>2017-10-30 11:23:02</StartTime>
+    <Description>Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2017-10-30 11:39:59</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -320,99 +253,9 @@
           </Object>
         </Path>
         <Operation>Navigate</Operation>
-        <OperationData><![CDATA[Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+        <OperationData><![CDATA[Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
       </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<Data>
-    <Name>Browser</Name>
-    <Description>Browser</Description>
-    <StartTime>2017-10-30 11:23:02</StartTime>
-    <Duration>0</Duration>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[Browser]]></OperationData>
-      </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<ReportNode type="Context">
-<ReportNode type="Context">
-<ReportNode type="Step">
-<Data>
-    <Name>The "" Link object was not found in the Object Repository.</Name>
-    <ErrorText>The "" Link object was not found in the Object Repository.
-Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
-    <Description>The &amp;quot;&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (6): &amp;quot;Browser(&amp;quot;Browser&amp;quot;).Page(&amp;quot;spring-mvc-showcase&amp;quot;).Link(DataTable(&amp;quot;A&amp;quot;, dtGlobalSheet)).Click&amp;quot;. </Description>
-    <StartTime>2017-10-30 11:23:02</StartTime>
-    <Result>Failed</Result>
-    <Extension>
-      <StackTrace>
-        <StackFrame>
-          <ModuleName><![CDATA[Action1]]></ModuleName>
-          <FileName><![CDATA[Action1]]></FileName>
-          <Language><![CDATA[VBScript - script block]]></Language>
-          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
-          <Scripts><![CDATA[Browser("Browser").Page("spring-mvc-showcase").Link(DataTable("A", dtGlobalSheet)).Click]]></Scripts>
-          <LineNo><![CDATA[6]]></LineNo>
-        </StackFrame>
-      </StackTrace>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[spring-mvc-showcase]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[The &quot;&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (6): &quot;Browser(&quot;Browser&quot;).Page(&quot;spring-mvc-showcase&quot;).Link(DataTable(&quot;A&quot;, dtGlobalSheet)).Click&quot;. ]]></OperationData>
-      </TestObject>
-      <IconKey>ad821b780ebc49a28d19371838f6d484</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-      <MergeIsErrorIcon>True</MergeIsErrorIcon>
-    </Extension>
-    <Snapshot reference="Resources\Snapshots\80d79472-86c3-4d73-87bd-d0350a3b2abe.jpeg" />
-  </Data>
-</ReportNode>
-<Data>
-    <Name>spring-mvc-showcase</Name>
-    <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:02</StartTime>
-    <Duration>2</Duration>
-    <Result>Failed</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[spring-mvc-showcase]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[Page]]></OperationData>
-      </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>7b7c36497069490a802efcf6a716fd5a</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -422,7 +265,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Type Conversion.Click</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:04</StartTime>
+    <StartTime>2017-10-30 11:40:00</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -453,7 +296,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
+      <IconKey>a498fb4c586f47e6ac47bb703ad6366e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -461,7 +304,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>spring-mvc-showcase_2</Name>
     <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:04</StartTime>
+    <StartTime>2017-10-30 11:40:00</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <Extension>
@@ -479,7 +322,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>816e7b8c508b49fc80732e56145d8e83</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -489,7 +332,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Custom Converter.Click</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:04</StartTime>
+    <StartTime>2017-10-30 11:40:00</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -520,7 +363,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
+      <IconKey>a498fb4c586f47e6ac47bb703ad6366e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -528,7 +371,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>spring-mvc-showcase_3</Name>
     <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:04</StartTime>
+    <StartTime>2017-10-30 11:40:00</StartTime>
     <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
@@ -546,7 +389,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>816e7b8c508b49fc80732e56145d8e83</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -554,9 +397,9 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Browser</Name>
     <Description>Browser</Description>
-    <StartTime>2017-10-30 11:23:02</StartTime>
-    <Duration>3</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:39:59</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
         <Repository>Local</Repository>
@@ -568,7 +411,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Browser]]></OperationData>
       </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
+      <IconKey>7b7c36497069490a802efcf6a716fd5a</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -576,14 +419,14 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Action1</Name>
     <Description />
-    <StartTime>2017-10-30 11:22:58</StartTime>
-    <Duration>7</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:39:56</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
     <InputParameters>
-      <Parameter name="URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53" type="System.String" />
+      <Parameter name="URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54" type="System.String" />
     </InputParameters>
     <Extension>
-      <IconKey>dc870929666242438d8ffc18e9db6925</IconKey>
+      <IconKey>2bd43440d781460b9007a31b482e00c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -591,11 +434,11 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2017-10-30 11:22:58</StartTime>
-    <Duration>7</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:39:56</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
     <Extension>
-      <IconKey>1187113d433347d4a1dc5ac26251ac1b</IconKey>
+      <IconKey>e4a4df68c9bd400d9ca6f0f0a3c24200</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>2</Index>
@@ -607,10 +450,10 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",1</Name>
-    <StartTime>2017-10-30 11:23:06</StartTime>
+    <StartTime>2017-10-30 11:40:01</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>d06ef0483e574378ac0c35a89b96fa67</IconKey>
+      <IconKey>35727a64bf5f44f394f9a5f2d6a92cce</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -619,8 +462,8 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <ReportNode type="Step">
 <Data>
     <Name>Browser.Navigate</Name>
-    <Description>Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
-    <StartTime>2017-10-30 11:23:09</StartTime>
+    <Description>Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2017-10-30 11:40:05</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -632,99 +475,9 @@ Check the Object Repository to confirm that the object exists or to find the cor
           </Object>
         </Path>
         <Operation>Navigate</Operation>
-        <OperationData><![CDATA[Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+        <OperationData><![CDATA[Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
       </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<Data>
-    <Name>Browser</Name>
-    <Description>Browser</Description>
-    <StartTime>2017-10-30 11:23:09</StartTime>
-    <Duration>0</Duration>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[Browser]]></OperationData>
-      </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<ReportNode type="Context">
-<ReportNode type="Context">
-<ReportNode type="Step">
-<Data>
-    <Name>The "" Link object was not found in the Object Repository.</Name>
-    <ErrorText>The "" Link object was not found in the Object Repository.
-Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
-    <Description>The &amp;quot;&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (6): &amp;quot;Browser(&amp;quot;Browser&amp;quot;).Page(&amp;quot;spring-mvc-showcase&amp;quot;).Link(DataTable(&amp;quot;A&amp;quot;, dtGlobalSheet)).Click&amp;quot;. </Description>
-    <StartTime>2017-10-30 11:23:09</StartTime>
-    <Result>Failed</Result>
-    <Extension>
-      <StackTrace>
-        <StackFrame>
-          <ModuleName><![CDATA[Action1]]></ModuleName>
-          <FileName><![CDATA[Action1]]></FileName>
-          <Language><![CDATA[VBScript - script block]]></Language>
-          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
-          <Scripts><![CDATA[Browser("Browser").Page("spring-mvc-showcase").Link(DataTable("A", dtGlobalSheet)).Click]]></Scripts>
-          <LineNo><![CDATA[6]]></LineNo>
-        </StackFrame>
-      </StackTrace>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[spring-mvc-showcase]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[The &quot;&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (6): &quot;Browser(&quot;Browser&quot;).Page(&quot;spring-mvc-showcase&quot;).Link(DataTable(&quot;A&quot;, dtGlobalSheet)).Click&quot;. ]]></OperationData>
-      </TestObject>
-      <IconKey>ad821b780ebc49a28d19371838f6d484</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-      <MergeIsErrorIcon>True</MergeIsErrorIcon>
-    </Extension>
-    <Snapshot reference="Resources\Snapshots\cc8de379-54ad-4014-97ed-717e848ad113.jpeg" />
-  </Data>
-</ReportNode>
-<Data>
-    <Name>spring-mvc-showcase</Name>
-    <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:09</StartTime>
-    <Duration>3</Duration>
-    <Result>Failed</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[spring-mvc-showcase]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[Page]]></OperationData>
-      </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>7b7c36497069490a802efcf6a716fd5a</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -734,7 +487,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Type Conversion.Click</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:12</StartTime>
+    <StartTime>2017-10-30 11:40:06</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -765,7 +518,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
+      <IconKey>a498fb4c586f47e6ac47bb703ad6366e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -773,7 +526,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>spring-mvc-showcase_2</Name>
     <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:12</StartTime>
+    <StartTime>2017-10-30 11:40:06</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <Extension>
@@ -791,7 +544,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>816e7b8c508b49fc80732e56145d8e83</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -801,7 +554,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Custom Converter.Click</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:12</StartTime>
+    <StartTime>2017-10-30 11:40:06</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -832,7 +585,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
+      <IconKey>a498fb4c586f47e6ac47bb703ad6366e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -840,7 +593,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>spring-mvc-showcase_3</Name>
     <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:12</StartTime>
+    <StartTime>2017-10-30 11:40:06</StartTime>
     <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
@@ -858,7 +611,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>816e7b8c508b49fc80732e56145d8e83</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -866,9 +619,9 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Browser</Name>
     <Description>Browser</Description>
-    <StartTime>2017-10-30 11:23:09</StartTime>
-    <Duration>4</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:40:05</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
         <Repository>Local</Repository>
@@ -880,7 +633,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Browser]]></OperationData>
       </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
+      <IconKey>7b7c36497069490a802efcf6a716fd5a</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -888,14 +641,14 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Action1</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:05</StartTime>
-    <Duration>8</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:40:01</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
     <InputParameters>
-      <Parameter name="URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53" type="System.String" />
+      <Parameter name="URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54" type="System.String" />
     </InputParameters>
     <Extension>
-      <IconKey>dc870929666242438d8ffc18e9db6925</IconKey>
+      <IconKey>2bd43440d781460b9007a31b482e00c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -903,11 +656,11 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:05</StartTime>
-    <Duration>8</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:40:01</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
     <Extension>
-      <IconKey>1187113d433347d4a1dc5ac26251ac1b</IconKey>
+      <IconKey>e4a4df68c9bd400d9ca6f0f0a3c24200</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>3</Index>
@@ -919,10 +672,10 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",1</Name>
-    <StartTime>2017-10-30 11:23:13</StartTime>
+    <StartTime>2017-10-30 11:40:07</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>d06ef0483e574378ac0c35a89b96fa67</IconKey>
+      <IconKey>35727a64bf5f44f394f9a5f2d6a92cce</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -931,8 +684,8 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <ReportNode type="Step">
 <Data>
     <Name>Browser.Navigate</Name>
-    <Description>Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
-    <StartTime>2017-10-30 11:23:17</StartTime>
+    <Description>Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2017-10-30 11:40:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -944,99 +697,9 @@ Check the Object Repository to confirm that the object exists or to find the cor
           </Object>
         </Path>
         <Operation>Navigate</Operation>
-        <OperationData><![CDATA[Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+        <OperationData><![CDATA[Navigate to http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
       </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<Data>
-    <Name>Browser</Name>
-    <Description>Browser</Description>
-    <StartTime>2017-10-30 11:23:17</StartTime>
-    <Duration>0</Duration>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[Browser]]></OperationData>
-      </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-  </Data>
-</ReportNode>
-<ReportNode type="Context">
-<ReportNode type="Context">
-<ReportNode type="Step">
-<Data>
-    <Name>The "" Link object was not found in the Object Repository.</Name>
-    <ErrorText>The "" Link object was not found in the Object Repository.
-Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
-    <Description>The &amp;quot;&amp;quot; Link object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (6): &amp;quot;Browser(&amp;quot;Browser&amp;quot;).Page(&amp;quot;spring-mvc-showcase&amp;quot;).Link(DataTable(&amp;quot;A&amp;quot;, dtGlobalSheet)).Click&amp;quot;. </Description>
-    <StartTime>2017-10-30 11:23:17</StartTime>
-    <Result>Failed</Result>
-    <Extension>
-      <StackTrace>
-        <StackFrame>
-          <ModuleName><![CDATA[Action1]]></ModuleName>
-          <FileName><![CDATA[Action1]]></FileName>
-          <Language><![CDATA[VBScript - script block]]></Language>
-          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
-          <Scripts><![CDATA[Browser("Browser").Page("spring-mvc-showcase").Link(DataTable("A", dtGlobalSheet)).Click]]></Scripts>
-          <LineNo><![CDATA[6]]></LineNo>
-        </StackFrame>
-      </StackTrace>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[spring-mvc-showcase]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[The &quot;&quot; Link object was not found in the Object Repository.<BR/>Check the Object Repository to confirm that the object exists or to find the correct name for the object.<BR/>Line (6): &quot;Browser(&quot;Browser&quot;).Page(&quot;spring-mvc-showcase&quot;).Link(DataTable(&quot;A&quot;, dtGlobalSheet)).Click&quot;. ]]></OperationData>
-      </TestObject>
-      <IconKey>ad821b780ebc49a28d19371838f6d484</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-      <MergeIsErrorIcon>True</MergeIsErrorIcon>
-    </Extension>
-    <Snapshot reference="Resources\Snapshots\ad0cc7e7-2b09-4c14-a45d-cccfe2a50073.jpeg" />
-  </Data>
-</ReportNode>
-<Data>
-    <Name>spring-mvc-showcase</Name>
-    <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:17</StartTime>
-    <Duration>2</Duration>
-    <Result>Failed</Result>
-    <Extension>
-      <TestObject>
-        <Repository>Local</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[Browser]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[spring-mvc-showcase]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[Page]]></OperationData>
-      </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>7b7c36497069490a802efcf6a716fd5a</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1046,7 +709,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Type Conversion.Click</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:19</StartTime>
+    <StartTime>2017-10-30 11:40:11</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1077,7 +740,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
+      <IconKey>a498fb4c586f47e6ac47bb703ad6366e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1085,7 +748,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>spring-mvc-showcase_2</Name>
     <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:19</StartTime>
+    <StartTime>2017-10-30 11:40:11</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <Extension>
@@ -1103,7 +766,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>816e7b8c508b49fc80732e56145d8e83</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1113,7 +776,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Custom Converter.Click</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:19</StartTime>
+    <StartTime>2017-10-30 11:40:11</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1144,7 +807,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>71af38eaa8c44bcc9ab8e93c98b0814f</IconKey>
+      <IconKey>a498fb4c586f47e6ac47bb703ad6366e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1152,7 +815,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>spring-mvc-showcase_3</Name>
     <Description>Page</Description>
-    <StartTime>2017-10-30 11:23:19</StartTime>
+    <StartTime>2017-10-30 11:40:11</StartTime>
     <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
@@ -1170,7 +833,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>d8368171247440c3af3b80614efa7366</IconKey>
+      <IconKey>816e7b8c508b49fc80732e56145d8e83</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1178,9 +841,9 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Browser</Name>
     <Description>Browser</Description>
-    <StartTime>2017-10-30 11:23:17</StartTime>
+    <StartTime>2017-10-30 11:40:09</StartTime>
     <Duration>3</Duration>
-    <Result>Failed</Result>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
         <Repository>Local</Repository>
@@ -1192,7 +855,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
         </Path>
         <OperationData><![CDATA[Browser]]></OperationData>
       </TestObject>
-      <IconKey>e1e6d1be10934d23b825d6a2b53956ae</IconKey>
+      <IconKey>7b7c36497069490a802efcf6a716fd5a</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1200,14 +863,14 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Action1</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:13</StartTime>
-    <Duration>7</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:40:07</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
     <InputParameters>
-      <Parameter name="URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53" type="System.String" />
+      <Parameter name="URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54" type="System.String" />
     </InputParameters>
     <Extension>
-      <IconKey>dc870929666242438d8ffc18e9db6925</IconKey>
+      <IconKey>2bd43440d781460b9007a31b482e00c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1215,11 +878,11 @@ Check the Object Repository to confirm that the object exists or to find the cor
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2017-10-30 11:23:13</StartTime>
-    <Duration>7</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:40:07</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
     <Extension>
-      <IconKey>1187113d433347d4a1dc5ac26251ac1b</IconKey>
+      <IconKey>e4a4df68c9bd400d9ca6f0f0a3c24200</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>4</Index>
@@ -1231,14 +894,14 @@ Check the Object Repository to confirm that the object exists or to find the cor
     <ToolName>HP Unified Functional Testing</ToolName>
     <ToolVersion>12.53</ToolVersion>
     <Description />
-    <StartTime>2017-10-30 11:22:43</StartTime>
-    <Duration>37</Duration>
-    <Result>Failed</Result>
+    <StartTime>2017-10-30 11:39:49</StartTime>
+    <Duration>23</Duration>
+    <Result>Done</Result>
     <InputParameters>
-      <Parameter name="SPRING_URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-53" type="System.String" />
+      <Parameter name="SPRING_URL" value="http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-54" type="System.String" />
     </InputParameters>
     <Extension>
-      <IconKey>96ae92b6c6c24aa7b4f3cfa9105ff36d</IconKey>
+      <IconKey>a60faf8da2e24183a2e591e66689676c</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Environment>
@@ -1259,7 +922,7 @@ Check the Object Repository to confirm that the object exists or to find the cor
 </ReportNode>
 <GeneralInfo>
     <ResultName>Spring3</ResultName>
-    <RunStartTime>2017-10-30 11:22:43</RunStartTime>
+    <RunStartTime>2017-10-30 11:39:49</RunStartTime>
     <Timezone>00:00:00</Timezone>
     <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
     <OrchestrationToolVersion>12.53</OrchestrationToolVersion>
