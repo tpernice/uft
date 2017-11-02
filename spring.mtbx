@@ -1,5 +1,5 @@
 <Mtbx>
-	<Test name="test1" path="C:\UFT\Spring3">
+	<Test name="test1" path="C:\git\uft\Spring3">
  	<Parameter name="SPRING_URL" value="${SPRING_URL}" type="string"/>
   	</Test>
 </Mtbx>
