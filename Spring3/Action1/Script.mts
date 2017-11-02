@@ -1,5 +1,5 @@
 ﻿
-'DataTable.Import ("errors.xls")
+DataTable.Import ("errors.xls")
 
 SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe","","C:\Program Files (x86)\Google\Chrome\Application",""
 'Browser("Browser").Navigate Parameter.Item("URL")
