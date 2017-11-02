@@ -1,4 +1,6 @@
 ﻿
+'DataTable.Import ("errors.xls")
+
 SystemUtil.Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe","","C:\Program Files (x86)\Google\Chrome\Application",""
 'Browser("Browser").Navigate Parameter.Item("URL")
 Browser("Browser").Navigate "http://pernix.northeurope.cloudapp.azure.com:8686/spring-mvc-showcase-1.0.0-BUILD-SNAPSHOT-55/#forms"
